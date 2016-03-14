@@ -1,0 +1,1 @@
+!function(e){"use strict";e.Field.create("fielder-toggle",{mixins:[e.Mixins.props,e.Mixins.create],created:function(){this.field.value=this.parseBool(this.field.value)}})}(Fielder);

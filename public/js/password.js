@@ -1,0 +1,1 @@
+!function(e){"use strict";e.Field.create("fielder-password")}(Fielder);

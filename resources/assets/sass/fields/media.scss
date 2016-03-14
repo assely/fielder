@@ -1,0 +1,23 @@
+.fielder-media {
+	position: relative;
+	overflow: hidden;
+
+	&__photo {
+		position: relative;
+		width: 200px;
+		float: left;
+		overflow: hidden;
+		max-height: 120px;
+		border: 1px solid #eee;
+		border-bottom: 0;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	&__content {
+		padding-left: 215px;
+	}
+}

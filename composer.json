@@ -1,0 +1,19 @@
+{
+    "name": "assely/fielder",
+    "description": "Fielder is an collection of various custom fields that you can seamlessly use with the Assely framework. A considerable number of fields types allows for shaping your application metadata as much as you like.",
+    "keywords": ["assely", "wordpress", "custom fields"],
+    "license": "MIT",
+    "type": "wordpress-plugin",
+    "suggest": {
+        "assely/framework": "Fielder relies on Assely framework."
+    },
+    "autoload": {
+        "psr-4": {
+            "Assely\\Fielder\\": "src/"
+        }
+    },
+    "extra": {
+        "installer-name": "assely-fielder"
+    },
+    "minimum-stability": "dev"
+}

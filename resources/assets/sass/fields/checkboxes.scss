@@ -1,0 +1,18 @@
+.fielder-field {
+	$this: #{&};
+
+	&--checkboxes {
+
+		overflow: hidden;
+
+    	> * + * {
+    		margin-top: 6px
+    	}
+
+		label {
+			clear: both;
+    		float: left;
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "dependencies": {
+    "simditor": "^2.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0",
+    "laravel-elixir-rollup": "^0.3.0",
+    "rollup-plugin-buble": "^0.8.0"
+  }
+}

@@ -1,0 +1,35 @@
+.fielder-field {
+	$this: #{&};
+
+	&--code {
+		& #{$this}__input {
+			min-height: 30px;
+			zoom: 1; /* IE < 8 */
+
+			&:before,
+			&:after {
+				content: ".";
+				display: block;
+				height: 0;
+				overflow: hidden;
+			}
+
+			&:after {
+				clear: both;
+			}
+
+			& > * {
+				position: absolute;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				margin: 0;
+			}
+
+			.ace_editor {
+				line-height: 2em;
+				border-radius: 3px;
+			}
+		}
+	}
+}

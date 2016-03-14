@@ -1,0 +1,1 @@
+!function(i){"use strict";i.Field.create("fielder-tinymce",{mixins:[i.Mixins.props,i.Mixins.create]})}(Fielder);

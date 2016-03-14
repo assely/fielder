@@ -1,0 +1,17 @@
+.fielder-field {
+	position: relative;
+
+	&:before {
+		color: #b4b9be;
+		font: normal 16px/1 'dashicons';
+		position: absolute;
+		top: 18px; left: 12px;
+		transform: translateY(-50%);
+	}
+
+	&__input {
+		width: 100%;
+		padding: 9px;
+		border-radius: 2px;
+	}
+}

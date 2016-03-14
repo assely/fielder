@@ -1,0 +1,1 @@
+!function(e){"use strict";e.Field.create("fielder-checkboxes",{created:function(){for(var e in this.field.value)this.field.value.hasOwnProperty(e)&&(this.field.value[e]=this.parseBool(this.field.value[e]))}})}(Fielder);
