@@ -68,11 +68,11 @@ class Datepicker extends Field
         ])->area('admin');
 
         $asset->add('fielder-datepicker-styles', [
-            'path' => FIELDER_URI . 'public/css/datepicker.css',
+            'path' => FIELDER_URI.'public/css/datepicker.css',
         ])->area('admin');
 
         $asset->add('fielder-datepicker', [
-            'path' => FIELDER_URI . 'public/js/datepicker.js',
+            'path' => FIELDER_URI.'public/js/datepicker.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

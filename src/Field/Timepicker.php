@@ -72,11 +72,11 @@ class Timepicker extends Field
         ])->area('admin');
 
         $asset->add('fielder-timepicker-styles', [
-            'path' => FIELDER_URI . 'public/css/timepicker.css',
+            'path' => FIELDER_URI.'public/css/timepicker.css',
         ])->area('admin');
 
         $asset->add('fielder-timepicker', [
-            'path' => FIELDER_URI . 'public/js/timepicker.js',
+            'path' => FIELDER_URI.'public/js/timepicker.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

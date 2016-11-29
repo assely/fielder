@@ -62,7 +62,7 @@ class FielderServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'Fielder');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'Fielder');
 
         $this->dispatchAssets();
     }
@@ -75,16 +75,16 @@ class FielderServiceProvider extends ServiceProvider
     public function dispatchAssets()
     {
         $this->app['asset.factory']->add('fielder-vendors', [
-            'path' => FIELDER_URI . 'public/js/vendors.js',
+            'path' => FIELDER_URI.'public/js/vendors.js',
         ])->area('admin');
 
         $this->app['asset.factory']->add('fielder', [
-            'path' => FIELDER_URI . 'public/js/fielder.js',
+            'path' => FIELDER_URI.'public/js/fielder.js',
             'dependences' => ['fielder-vendors'],
         ])->area('admin');
 
         $this->app['asset.factory']->add('fielder-style', [
-            'path' => FIELDER_URI . 'public/css/fielder.css',
+            'path' => FIELDER_URI.'public/css/fielder.css',
         ])->area('admin');
     }
 

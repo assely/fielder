@@ -52,7 +52,7 @@ class Textarea extends Field
     public function assets(AssetFactory $asset)
     {
         $asset->add('fielder-textarea', [
-            'path' => FIELDER_URI . 'public/js/textarea.js',
+            'path' => FIELDER_URI.'public/js/textarea.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

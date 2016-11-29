@@ -51,11 +51,11 @@ class Toggle extends Field
     public function assets(AssetFactory $asset)
     {
         $asset->add('fielder-toggle-styles', [
-            'path' => FIELDER_URI . 'public/css/toggle.css',
+            'path' => FIELDER_URI.'public/css/toggle.css',
         ])->area('admin');
 
         $asset->add('fielder-toggle', [
-            'path' => FIELDER_URI . 'public/js/toggle.js',
+            'path' => FIELDER_URI.'public/js/toggle.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

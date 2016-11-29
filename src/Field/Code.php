@@ -68,11 +68,11 @@ class Code extends Field
         ])->area('admin');
 
         $asset->add('fielder-code-styles', [
-            'path' => FIELDER_URI . 'public/css/code.css',
+            'path' => FIELDER_URI.'public/css/code.css',
         ])->area('admin');
 
         $asset->add('fielder-code', [
-            'path' => FIELDER_URI . 'public/js/code.js',
+            'path' => FIELDER_URI.'public/js/code.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

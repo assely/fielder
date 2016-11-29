@@ -51,11 +51,11 @@ class Checkboxes extends Field
     public function assets(AssetFactory $asset)
     {
         $asset->add('fielder-chekcboxes-styles', [
-            'path' => FIELDER_URI . 'public/css/checkboxes.css',
+            'path' => FIELDER_URI.'public/css/checkboxes.css',
         ])->area('admin');
 
         $asset->add('fielder-checkboxes', [
-            'path' => FIELDER_URI . 'public/js/checkboxes.js',
+            'path' => FIELDER_URI.'public/js/checkboxes.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

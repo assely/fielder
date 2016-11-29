@@ -60,11 +60,11 @@ class Colorpicker extends Field
         ])->area('admin');
 
         $asset->add('fielder-colorpicker-styles', [
-            'path' => FIELDER_URI . 'public/css/colorpicker.css',
+            'path' => FIELDER_URI.'public/css/colorpicker.css',
         ])->area('admin');
 
         $asset->add('fielder-colorpicker', [
-            'path' => FIELDER_URI . 'public/js/colorpicker.js',
+            'path' => FIELDER_URI.'public/js/colorpicker.js',
             'dependences' => ['fielder', 'wp-color-picker'],
         ])->area('admin');
     }

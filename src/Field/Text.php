@@ -52,7 +52,7 @@ class Text extends Field
     public function assets(AssetFactory $asset)
     {
         $asset->add('fielder-text', [
-            'path' => FIELDER_URI . 'public/js/text.js',
+            'path' => FIELDER_URI.'public/js/text.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }
