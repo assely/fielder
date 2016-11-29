@@ -36,7 +36,7 @@ class Hidden extends Field
     public function assets(AssetFactory $asset)
     {
         $asset->add('fielder-hidden', [
-            'path' => FIELDER_URI . 'public/js/hidden.js',
+            'path' => FIELDER_URI.'public/js/hidden.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

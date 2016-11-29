@@ -53,11 +53,11 @@ class Media extends Field
     public function assets(AssetFactory $asset)
     {
         $asset->add('fielder-media-styles', [
-            'path' => FIELDER_URI . 'public/css/media.css',
+            'path' => FIELDER_URI.'public/css/media.css',
         ])->area('admin');
 
         $asset->add('fielder-media', [
-            'path' => FIELDER_URI . 'public/js/media.js',
+            'path' => FIELDER_URI.'public/js/media.js',
             'dependences' => ['fielder'],
         ])->area('admin');
 

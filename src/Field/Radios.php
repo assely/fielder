@@ -51,11 +51,11 @@ class Radios extends Field
     public function assets(AssetFactory $asset)
     {
         $asset->add('fielder-radios-styles', [
-            'path' => FIELDER_URI . 'public/css/radios.css',
+            'path' => FIELDER_URI.'public/css/radios.css',
         ])->area('admin');
 
         $asset->add('fielder-radios', [
-            'path' => FIELDER_URI . 'public/js/radios.js',
+            'path' => FIELDER_URI.'public/js/radios.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

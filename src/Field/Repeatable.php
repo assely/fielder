@@ -52,7 +52,7 @@ class Repeatable extends Field
     public function assets(AssetFactory $asset)
     {
         $asset->add('fielder-repeatable', [
-            'path' => FIELDER_URI . 'public/js/repeatable.js',
+            'path' => FIELDER_URI.'public/js/repeatable.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

@@ -21,8 +21,8 @@ define('FIELDER_URI', plugin_dir_url(__FILE__));
 // that means plugin was installed manually or directly form
 // Wordpress plugins repository. We need to autoload him.
 if (
-    is_dir(__DIR__ . '/vendor')
+    is_dir(__DIR__.'/vendor')
     && ! class_exists('Assely\Fielder\Fielder')
 ) {
-    require __DIR__ . '/vendor/autoload.php';
+    require __DIR__.'/vendor/autoload.php';
 }

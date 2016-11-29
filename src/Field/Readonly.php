@@ -52,7 +52,7 @@ class Readonly extends Field
     public function assets(AssetFactory $asset)
     {
         $asset->add('fielder-readonly', [
-            'path' => FIELDER_URI . 'public/js/readonly.js',
+            'path' => FIELDER_URI.'public/js/readonly.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

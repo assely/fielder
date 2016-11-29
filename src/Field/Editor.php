@@ -50,11 +50,11 @@ class Editor extends Field
         ])->area('admin');
 
         $asset->add('fielder-editor-styles', [
-            'path' => FIELDER_URI . 'public/css/editor.css',
+            'path' => FIELDER_URI.'public/css/editor.css',
         ])->area('admin');
 
         $asset->add('fielder-editor', [
-            'path' => FIELDER_URI . 'public/js/editor.js',
+            'path' => FIELDER_URI.'public/js/editor.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

@@ -36,7 +36,7 @@ class Password extends Field
     public function assets(AssetFactory $asset)
     {
         $asset->add('fielder-password', [
-            'path' => FIELDER_URI . 'public/js/password.js',
+            'path' => FIELDER_URI.'public/js/password.js',
             'dependences' => ['fielder'],
         ])->area('admin');
     }

@@ -38,7 +38,7 @@ class Tinymce extends Field
     public function assets(AssetFactory $asset)
     {
         $asset->add('fielder-tinymce', [
-            'path' => FIELDER_URI . 'public/js/tinymce.js',
+            'path' => FIELDER_URI.'public/js/tinymce.js',
             'dependences' => ['fielder'],
         ])->area('admin');
 
