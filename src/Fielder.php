@@ -2,8 +2,8 @@
 
 namespace Assely\Fielder;
 
-use Assely\Field\FieldException;
 use Assely\Foundation\Factory;
+use Assely\Field\FieldException;
 
 class Fielder extends Factory
 {

@@ -2,10 +2,10 @@
 
 namespace Assely\Fielder\Field;
 
-use Assely\Asset\AssetFactory;
 use Assely\Field\Field;
-use Assely\Field\Support\MayHaveChildren;
+use Assely\Asset\AssetFactory;
 use Assely\Field\Support\HasAPreview;
+use Assely\Field\Support\MayHaveChildren;
 use Illuminate\Contracts\View\Factory as ViewFactory;
 
 class Toggle extends Field

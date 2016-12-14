@@ -2,10 +2,10 @@
 
 namespace Assely\Fielder\Field;
 
-use Assely\Asset\AssetFactory;
 use Assely\Field\Field;
-use Assely\Field\Support\CanBeValidated;
+use Assely\Asset\AssetFactory;
 use Assely\Field\Support\HasAPreview;
+use Assely\Field\Support\CanBeValidated;
 use Illuminate\Contracts\View\Factory as ViewFactory;
 
 class Checkboxes extends Field

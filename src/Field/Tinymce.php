@@ -2,10 +2,10 @@
 
 namespace Assely\Fielder\Field;
 
-use Assely\Asset\AssetFactory;
 use Assely\Field\Field;
-use Assely\Field\Support\CanBeSanitized;
+use Assely\Asset\AssetFactory;
 use Assely\Support\Facades\Hook;
+use Assely\Field\Support\CanBeSanitized;
 use Illuminate\Contracts\View\Factory as ViewFactory;
 
 class Tinymce extends Field
