@@ -2,6 +2,8 @@
 
 ### The Fielder is a collection of various custom fields that you can seamlessly use with the Assely framework and its singularities. A considerable number of fields types allows for shaping your application metadata as much as you like.
 
+> Take a note we still in pre-alpha. Things may break, things may change :) Thanks for your understanding!
+
 - Extensive collection of various [Field types](https://assely.org/docs/field-types)
 - Live [validation](https://assely.org/docs/fielder-usage/#validating-fields) with readable and user-friendly alerts
 - Easy fields values [sanitization](https://assely.org/docs/fielder-usage/#sanitizing-fields) with build-in or custom callbacks
