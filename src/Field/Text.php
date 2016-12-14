@@ -2,11 +2,11 @@
 
 namespace Assely\Fielder\Field;
 
-use Assely\Asset\AssetFactory;
 use Assely\Field\Field;
+use Assely\Asset\AssetFactory;
+use Assely\Field\Support\HasAPreview;
 use Assely\Field\Support\CanBeSanitized;
 use Assely\Field\Support\CanBeValidated;
-use Assely\Field\Support\HasAPreview;
 use Illuminate\Contracts\View\Factory as ViewFactory;
 
 class Text extends Field
